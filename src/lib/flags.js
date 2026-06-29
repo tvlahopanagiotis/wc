@@ -1,0 +1,38 @@
+export const FLAGS = {
+  'Argentina':               '🇦🇷',
+  'Algeria':                 '🇩🇿',
+  'Australia':               '🇦🇺',
+  'Austria':                 '🇦🇹',
+  'Belgium':                 '🇧🇪',
+  'Bosnia and Herzegovina':  '🇧🇦',
+  'Brazil':                  '🇧🇷',
+  'Canada':                  '🇨🇦',
+  'Cape Verde':              '🇨🇻',
+  'Colombia':                '🇨🇴',
+  'Croatia':                 '🇭🇷',
+  'DR Congo':                '🇨🇩',
+  'Ecuador':                 '🇪🇨',
+  'Egypt':                   '🇪🇬',
+  'England':                 '🏴󠁧󠁢󠁥󠁮󠁧󁿢',
+  'France':                  '🇫🇷',
+  'Germany':                 '🇩🇪',
+  'Ghana':                   '🇬🇭',
+  'Ivory Coast':             '🇨🇮',
+  'Japan':                   '🇯🇵',
+  'Mexico':                  '🇲🇽',
+  'Morocco':                 '🇲🇦',
+  'Netherlands':             '🇳🇱',
+  'Norway':                  '🇳🇴',
+  'Paraguay':                '🇵🇾',
+  'Portugal':                '🇵🇹',
+  'Senegal':                 '🇸🇳',
+  'South Africa':            '🇿🇦',
+  'Spain':                   '🇪🇸',
+  'Sweden':                  '🇸🇪',
+  'Switzerland':             '🇨🇭',
+  'United States':           '🇺🇸',
+}
+
+export function flag(team) {
+  return FLAGS[team] ?? '🏳️'
+}
